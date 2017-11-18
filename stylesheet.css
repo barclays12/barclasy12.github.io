@@ -1,0 +1,214 @@
+body {
+  width: 100%;
+  height: 100%;
+
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #55595e;
+  font-size: 16px;
+
+  line-height: 1.5;
+}
+
+a {
+  color: #55595e;
+}
+
+header {
+  width: 100%;
+  height: 8%;
+
+  background-color: white;
+
+  padding-left: 7.5%;
+  padding-right: 7.5%;
+
+  box-shadow: 0 1px 8px #666666;
+
+  position: fixed;
+  z-index: 10;
+}
+
+.navbar {
+  padding: 0;
+  color: #55595e;
+}
+
+.logo-container {
+  width: 10%;
+  height: 92%;
+}
+
+.first-section-container {
+  width: 100%;
+  height: 15%;
+
+  padding-top: 24%;
+  padding-bottom: 9%;
+
+  background-image: url(http://res.cloudinary.com/dzixj0ktk/image/upload/v1510909463/201511-houston-skyline-telwink-flickr_psihib.jpg);
+  background-position: 68% 68%;
+  background-size: cover;
+
+  text-shadow: 0px 3px 3px rgba(0,0,0,0.25);
+
+  color: #fafafa;
+}
+
+.first-section {
+  margin-top: -3%;
+  font-weight: 300;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+}
+
+.section-header {
+  padding-top: 10%;
+  padding-bottom: 3%;
+
+  font-size: 36px;
+  color: #242628;
+}
+
+.section-text {
+  font-size: 18px;
+  line-height: 1.5;
+
+  margin-bottom: 3.5%;
+  margin-top: 1.2%;
+
+  font-weight: 300;
+}
+
+.link-container {
+  margin-top: -2%;
+  margin-bottom: 8.5%;
+}
+
+.link {
+  color: #ffc200;
+  font-size: 18px;
+}
+
+.color {
+  color: #ffc200;
+}
+
+.strong {
+  color: #242628;
+  font-weight: 600;
+}
+
+.macbook-image {
+  transform: scale(1.26) translateY(-3%) translateX(7%);
+}
+
+hr {
+  margin-top: -1.7%;
+}
+
+.third-section-container {
+  margin-top: -2.4%;
+}
+
+.main-section-image {
+  height: 50%;
+  width: 83%;
+}
+
+.center-text {
+  text-align: center;
+  width: 65%;
+}
+
+.sub-image {
+  height: 68%;
+  width: 94%;
+
+  margin-bottom: 2%;
+
+  border-radius: 1%;
+}
+
+.subhead {
+  font-size: 18px;
+}
+
+.fourth-section-container {
+  margin-top: -4%;
+}
+
+.fifth-section-container {
+  margin-top: -4%;
+}
+
+.review {
+  border-right: 1px solid gray;
+
+  margin-right: 5%;
+}
+
+.last-review {
+  border: none;
+  margin-right: 0;
+}
+
+.icon-image {
+  height: 20%;
+  width: 70%;
+}
+
+.sixth-section-container {
+  height: 750px;
+  width: 100%;
+
+  margin-top: 8.5%;
+  padding-top: 5%;
+
+  background-image: url(http://res.cloudinary.com/dzixj0ktk/image/upload/v1510587386/david-alacaraz-328972_fymcaj.jpg);
+  background-position: left;
+  background-size: cover;
+}
+
+.header-text {
+  width: 55%;
+  margin: auto;
+}
+
+.pre-header-text {
+  color: rgba(255,255,255,.75);
+  font-size: 24px;
+}
+
+.white {
+  color: #fff;
+  line-height: 1.25;
+
+  padding-top: 0;
+}
+
+.cards {
+  height: 450px;
+  width: 100vw:
+}
+
+.card {
+  height: 90%;
+  width: 30%;
+}
+
+.bullet-point {
+  height: 100%;
+  line-height: 1;
+
+  font-weight: 300;
+  font-size: 24px;
+
+  background: url(http://res.cloudinary.com/dzixj0ktk/image/upload/c_scale,w_33/v1510910071/iconmonstr-check-mark-8-240_1_nvkayg.png) no-repeat left top;
+  padding: 3.5px 0px 18px 45px;
+  /* reset styles (optional): */
+  list-style-position: inside;
+  margin: 0;
+}
