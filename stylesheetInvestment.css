@@ -60,21 +60,15 @@ header {
   width: 100%;
   height: 15%;
 
-  padding-top: 24%;
-  padding-bottom: 9%;
-
-  background-image: url(http://res.cloudinary.com/dzixj0ktk/image/upload/o_90/v1510909463/201511-houston-skyline-telwink-flickr_psihib.jpg);
-  background-position: 68% 68%;
-  background-size: cover;
-
-  text-shadow: 0px 3px 3px rgba(0,0,0,0.25);
-
-  color: #fafafa;
+  box-shadow: 0 10px 50px #e1e3e4;
 }
 
-.first-section {
-  margin-top: -3%;
-  font-weight: 300;
+.header-image {
+  height: 100%;
+  width: 100%;
+
+  margin-top: 5%;
+  margin-bottom: 2.5%;
 }
 
 img {
@@ -83,18 +77,35 @@ img {
 }
 
 .section-header {
-  padding-top: 10%;
-  padding-bottom: 3%;
+  padding-top: 7%;
+  padding-bottom: 1%;
 
-  font-size: 36px;
+  font-size: 42px;
   color: #242628;
 }
 
-.section-text {
-  font-size: 18px;
+.section-mini-header {
+  padding-top: 12%;
+  padding-bottom: 3%;
+
+  font-size: 24px;
+  color: #242628;
+}
+
+.section-subheader {
+  font-size: 24px;
   line-height: 1.5;
 
-  margin-bottom: 3.5%;
+  font-weight: 300;
+
+  padding-bottom: 2.5%;
+}
+
+.section-text {
+  font-size: 21px;
+  line-height: 1.5;
+
+  margin-bottom: 5%;
   margin-top: 1.2%;
 
   font-weight: 300;
@@ -110,8 +121,18 @@ img {
   font-size: 18px;
 }
 
-.color {
-  color: #ffc200;
+.justified {
+  text-align: justify;
+}
+
+.italic {
+  font-style: italic;
+  margin-right: 3px;
+}
+
+.semi-strong {
+  color: #242628;
+  font-weight: 400;
 }
 
 .strong {
@@ -119,12 +140,8 @@ img {
   font-weight: 600;
 }
 
-.macbook-image {
-  transform: scale(1.26) translateY(-3%) translateX(7%);
-}
-
-hr {
-  margin-top: -1.7%;
+.color {
+  color: #ffc200;
 }
 
 .third-section-container {
@@ -138,7 +155,7 @@ hr {
 
 .center-text {
   text-align: center;
-  width: 65%;
+  width: 100%;
 }
 
 .sub-image {
@@ -155,7 +172,19 @@ hr {
 }
 
 .fourth-section-container {
-  margin-top: -4%;
+  width: 100%;
+  height: 15%;
+
+  padding-top: 25%;
+  padding-bottom: 9%;
+
+  background-image: url(http://res.cloudinary.com/dzixj0ktk/image/upload/o_90/v1512132383/nik-macmillan-280300_yfjxf0.jpg);
+  background-position: 60% 50%;
+  background-size: cover;
+
+  text-shadow: 0px 3px 3px rgba(0,0,0,0.25);
+
+  color: #fafafa;
 }
 
 .fifth-section-container {
@@ -217,16 +246,34 @@ hr {
   width: 30%;
 }
 
+.section-list {
+  padding-bottom: 2.5%;
+}
+
 .bullet-point {
   height: 100%;
-  line-height: 1;
+  line-height: 1.5;
 
   font-weight: 300;
   font-size: 24px;
 
-  background: url(http://res.cloudinary.com/dzixj0ktk/image/upload/c_scale,w_33/v1510910071/iconmonstr-check-mark-8-240_1_nvkayg.png) no-repeat left top;
-  padding: 3.5px 0px 18px 45px;
-  /* reset styles (optional): */
+  background: url(http://res.cloudinary.com/dzixj0ktk/image/upload/c_scale,w_33/v1512130883/fixed-check-bulletpoint_yez6b8.png) no-repeat left top;
+  padding: 0 0 30px 45px;
+
   list-style-position: inside;
   margin: 0;
+}
+
+.rei-icon-container {
+  height: 100%;
+  width: 100%;
+}
+
+#rei-icon {
+  height: 225px;
+  width: 225px;
+
+  margin-top: 72.5%;
+  margin-left: 32.5%;
+  margin-right: 10%;
 }
