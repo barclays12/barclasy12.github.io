@@ -205,7 +205,20 @@ img {
 }
 
 .fifth-section-container {
-  margin-top: -4%;
+  padding-top: 3%;
+}
+
+.largest-text {
+  font-size: 70px;
+  font-weight: 300;
+}
+
+.largest-text:last-of-type {
+  margin-bottom: 10%;
+}
+
+.article:last-child {
+  margin-bottom: -5%;
 }
 
 .review {
