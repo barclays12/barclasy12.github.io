@@ -36,9 +36,20 @@ header {
 
 .logo-container {
   width: 90px;
-  height: 90%;
+  height: 63px;
 
-  margin-right: -5%;
+  padding-top: 3px;
+
+  margin-right: -2.5%;
+}
+
+.logo-container-2 {
+  width: 60px;
+  height: 63px;
+
+  padding-top: 3px;
+
+  margin-left: -2.5%;
 }
 
 .even-space-around {
@@ -53,7 +64,7 @@ header {
 
 .nav-item {
   font-size: 18px;
-  line-height: 3;
+  line-height: 3.5;
 }
 
 .first-section-container {
@@ -99,6 +110,11 @@ img {
   font-weight: 300;
 
   padding-bottom: 2.5%;
+}
+
+.special-text {
+  font-size: 38px;
+  font-weight: 300;
 }
 
 .section-text {
@@ -175,11 +191,12 @@ img {
   width: 100%;
   height: 15%;
 
-  padding-top: 25%;
-  padding-bottom: 9%;
+  padding-top: 14%;
+  padding-bottom: 5%;
+  padding-right: 4%;
 
-  background-image: url(http://res.cloudinary.com/dzixj0ktk/image/upload/o_90/v1512132383/nik-macmillan-280300_yfjxf0.jpg);
-  background-position: 60% 50%;
+  background-image: url(http://res.cloudinary.com/dzixj0ktk/image/upload/o_85/v1512132383/nik-macmillan-280300_yfjxf0.jpg);
+  background-position: 50% 100%;
   background-size: cover;
 
   text-shadow: 0px 3px 3px rgba(0,0,0,0.25);
@@ -262,11 +279,6 @@ img {
 
   list-style-position: inside;
   margin: 0;
-}
-
-.rei-icon-container {
-  height: 100%;
-  width: 100%;
 }
 
 #rei-icon {
